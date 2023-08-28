@@ -113,7 +113,6 @@ tl5
   stagger:0.5,
 })
 gsap.from("#image6",{
-  ease:"power2",
    rotate:"360 Deg",
   scrollTrigger:{
     trigger:"#image6",
@@ -123,7 +122,6 @@ gsap.from("#image6",{
   }
 })
 gsap.from("#pic",{
-  ease:"power2",
   rotate:"360 Deg",
   scrollTrigger:{
     trigger:"#pic",
