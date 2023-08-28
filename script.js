@@ -96,15 +96,15 @@ var tl5 =gsap.timeline({
   trigger:"#page5",
   scroller:"#main",
   // markers:true,
-  start:"top 60%",
-  end:"top 30%",
+  start:"top 50%",
+  end:"top 10%",
   scrub:2,
  }
 })
 tl5
 .from("#boxpart1 #six,#seven",{
   y:200,
-  delay:0.5,
+  delay:0.7,
   stagger:0.5,
 })
 .from("#page5part ,#head1,#head2,#head3",{
@@ -113,6 +113,7 @@ tl5
   stagger:0.5,
 })
 gsap.from("#image6",{
+  ease:"power2",
    rotate:"360 Deg",
   scrollTrigger:{
     trigger:"#image6",
@@ -122,13 +123,30 @@ gsap.from("#image6",{
   }
 })
 gsap.from("#pic",{
+  ease:"power2",
   rotate:"360 Deg",
   scrollTrigger:{
     trigger:"#pic",
     scroller:"#main",
-    scrub:5,
+    scrub:3,
   }
 })
+texts()
+
+gsap.to("#page6 h4 span",{
+  color:"white",
+  
+  stagger:1,
+  scrollTrigger:{
+    trigger:"#page6 h4 span",
+    scroller:"#main",
+    start:"top 80%",
+    end:"top -10%",
+    scrub:2,
+    // markers:true,
+
+  }
+ })
 gsap.from("#page7part1 ,#head4,#head5",{
   y:100,
   delay:0.8,
@@ -138,13 +156,27 @@ gsap.from("#page7part1 ,#head4,#head5",{
     scroller:"#main",
     // markers:true,
     start:"top 50%",
-    end:"top 30%",
+    end:"top 10%",
     scrub:1,
 
   }
 })
 
 
+function texts() {
+  var text = document.querySelectorAll("#page6 h4")
+ text.forEach(function (elem){
+  var content = elem.textContent
+  var splitted = content.split("")
+  var clutter =""
+  splitted.forEach(function(e){
+    clutter+=`<span>${e}</span>`
+  })
+  elem.innerHTML=clutter
+
+ });
+  
+}
 
 
 

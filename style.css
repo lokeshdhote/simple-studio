@@ -300,6 +300,7 @@ border-radius: 50px;
    border-radius: 20px;
    margin: auto;
    background-color: #efe6dd;
+   overflow: hidden;
  }
  #box {
   overflow: hidden;
@@ -473,6 +474,9 @@ margin-bottom: 80px;
   font-size: 3.1vmax;
   font-weight: 500;
   align-items: center;
+}
+#textprt2 h4 span{
+  color: #616161;
 }
  #page7 {
 
