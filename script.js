@@ -129,6 +129,22 @@ gsap.from("#pic",{
     scrub:5,
   }
 })
+texts()
+
+gsap.to("#page6 h4 span",{
+  color:"white",
+  
+  stagger:1,
+  scrollTrigger:{
+    trigger:"#page6 h4 span",
+    scroller:"#main",
+    start:"top 80%",
+    end:"top -20%",
+    scrub:2,
+    markers:true,
+
+  }
+ })
 gsap.from("#page7part1 ,#head4,#head5",{
   y:100,
   delay:0.8,
@@ -145,6 +161,20 @@ gsap.from("#page7part1 ,#head4,#head5",{
 })
 
 
+function texts() {
+  var text = document.querySelectorAll("#page6 h4")
+ text.forEach(function (elem){
+  var content = elem.textContent
+  var splitted = content.split("")
+  var clutter =""
+  splitted.forEach(function(e){
+    clutter+=`<span>${e}</span>`
+  })
+  elem.innerHTML=clutter
+
+ });
+  
+}
 
 
 
