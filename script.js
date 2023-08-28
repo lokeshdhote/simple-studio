@@ -132,25 +132,19 @@ gsap.from("#pic",{
   }
 })
 texts()
-
 gsap.to("#page6 h4 span",{
   color:"white",
-  
   stagger:1,
   scrollTrigger:{
     trigger:"#page6 h4 span",
     scroller:"#main",
     start:"top 80%",
-<<<<<<< HEAD
     end:"top -10%",
     scrub:2,
     // markers:true,
-=======
     end:"top -20%",
     scrub:2,
     markers:true,
->>>>>>> 3a07d4ad2f9edc25bc560b9995f6e8a24237240d
-
   }
  })
 gsap.from("#page7part1 ,#head4,#head5",{
