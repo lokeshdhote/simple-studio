@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "gilroy";
+  src: url(./Gilroy-Regular.otf);
+}
 * {
    margin: 0;
    padding: 0;
@@ -26,7 +30,7 @@
  #header h4 {
    color: #b5a798;
    font-weight: 400;
-   font-size: 23px;
+   font-size: 1.5vmax;
  }
  #header h4::after {
    content: "";
@@ -39,7 +43,7 @@
  }
  #header h5 i {
    font-weight: 10;
-   font-size: 34px;
+   font-size: 1.5vmax;
  }
  #header img {
    height: 30px;
@@ -58,7 +62,7 @@
    width: 85%;
    height: 100%;
  /* overflow: hidden; */
-   font-size: 80px;
+   font-size: 2vmax;
    font-weight: 700;
    font-family: gilroy;
    /* background-color: red; */
@@ -69,7 +73,7 @@
  }
  .text h2 {
    color: #fff;
-   font-size: 120px;
+   font-size: 8.2vmax;
    font-weight: 500;
    font-family: gilroy;
  }
@@ -101,7 +105,7 @@
  #page1 p {
    line-height: 30px;
  
-   font-size: 20px;
+   font-size: 1.5vmax;
    font-weight: 400;
    color: #c1b6aa;
    text-align: start;
@@ -119,7 +123,7 @@
    width: 80%;
    height: 80%;
    overflow: hidden;
-   border-radius: 50px;
+border-radius: 50px;
  }
  #videobox video {
    width: 100%;
@@ -148,7 +152,7 @@
    color: #fff;
    font-family: voyage;
    font-weight: 200;
-   font-size: 70px;
+   font-size: 7.5vmax;
  }
  #page3 img {
    position: absolute;
@@ -186,7 +190,7 @@
  .secpart1 h2:nth-child(1) {
    word-spacing: 10px;
    font-weight: 300;
-   letter-spacing: 2px;
+   letter-spacing: 0.2vmax;
    transition: all ease 0.25s;
  }
  .secpart1 h2:nth-child(1):hover {
@@ -213,7 +217,7 @@
    color: #b5a798;
  }
  #text4 h2 {
-   font-size: 18px;
+   font-size: 1.4vmax;
    font-weight: 500;
    border-radius: 20px;
    padding: 5px 10px;
@@ -221,7 +225,7 @@
    border: 1px solid #b5a798;
  }
  #text4 h4 {
-   font-size: 17px;
+   font-size: 1.5vmax;
    font-weight: 350;
    margin-bottom: 5px;
  
@@ -284,7 +288,7 @@
  #image6{
   position: absolute;
   top: 13%;
-  left: 30%;
+  left: 32%;
   height: 8%;
 
 
@@ -317,7 +321,7 @@
  }
  #boxpart1 h2 {
   overflow: hidden;
-   font-size: 80px;
+   font-size: 6vmax;
    font-weight: 400;
  }
  #boxpart1 p {
@@ -435,7 +439,7 @@
  }
  #textprt1>h3{
   width: fit-content;
-  font-size: 18px;
+  font-size: 1.4vmax;
   font-weight: 500;
   border-radius: 20px;
 color: #b5a798;
@@ -445,7 +449,7 @@ color: #b5a798;
 #textprt2{
 
   margin-top: 90px;
-  font-size: 100px;
+  font-size: 5vmax;
   font-weight: 500;
 
   align-items: center;
@@ -466,7 +470,7 @@ margin-bottom: 80px;
   margin-bottom: 80px;
 }
 #textprt2 h4{
-  font-size: 50px;
+  font-size: 3.1vmax;
   font-weight: 500;
   align-items: center;
 }
@@ -493,7 +497,7 @@ padding: 0px 80px;
  }
  #page7part1 h1{
   /* overflow: hidden; */
-  font-size: 110px;
+  font-size: 8vmax;
   font-weight:500;
   font-family: "Applegaramond, sans-serif";
 
@@ -509,7 +513,7 @@ padding: 0px 80px;
  }
  #page7part2 h2{
   width: fit-content;
-  font-size: 20px;
+  font-size: 1.5vmax;
   font-weight: 500;
   border-radius: 20px;
 color: #1f1e1e;
@@ -517,7 +521,7 @@ color: #1f1e1e;
   padding: 5px 10px;
  }
  #page7part2 h3{
-  font-size: 20px;
+  font-size: 1vmax;
   font-weight: 400;
  }
 
@@ -562,7 +566,7 @@ gap: 40px;
 }
 .parts h1{
   font-weight: 600;
-  font-size: 25px;
+  font-size: 1.5vmax;
 
 
 
@@ -602,7 +606,7 @@ transform: translateX(0%);
   
 }
 .texts h2{
-  font-size: 100px;
+  font-size: 7vmax;
 
 }
 #page7subpart4{
@@ -614,7 +618,7 @@ transform: translateX(0%);
   gap: 20px;
 }
 .texts2 h2{
-font-size: 100px;
+font-size:9vmax;
 
 }
 .texts2{
@@ -646,7 +650,7 @@ font-size: 100px;
 .hh1{
 text-transform: capitalize;
 font-family: Applegaramond, sans-serif;
-  font-size: 40px;
+  font-size: 2vmax;
 font-weight: 0;
 word-spacing: 7px;
 letter-spacing: 3px;
@@ -677,7 +681,7 @@ color: #c1b6aa;
 }
 
 #subpart1 h3{
-  font-size: 22px;
+  font-size: 2vmax;
   font-weight: 600;
   text-decoration: underline;
 }
@@ -700,7 +704,7 @@ color: #c1b6aa;
 }
 #subpart3 h3{
 font-weight: 600;
-  font-size: 22px;
+  font-size: 1.7vmax;
   color: #fff;
 }
 #footersub::after{
@@ -729,7 +733,7 @@ width: 100%;
 
 }
 #footersub2 h6{
-  font-size: 14px;
+  font-size: 1.3vmax;
 
 }
 
