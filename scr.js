@@ -154,16 +154,16 @@ gsap.from("#pic",{
 texts()
 gsap.to("#page6 h4 span",{
   color:"white",
-  stagger:1,
+  stagger:1.5,
   scrollTrigger:{
     trigger:"#page6 h4 span",
     scroller:"#main",
     start:"top 80%",
     end:"top -10%",
-    scrub:2,
+    scrub:3,
     // markers:true,
     end:"top -20%",
-    scrub:2,
+   
   
   }
  })
