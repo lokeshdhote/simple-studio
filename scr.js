@@ -29,9 +29,31 @@ function loco(){
   
   }
   loco()
-  gsap.from("#maintext #one , #line ,#two ,#three",{
+  var loaderrtext = document.querySelector("#loader h1")
+ var load = 0
+ setInterval(function(){
+  if(load<100){
+    load+=Math.floor(Math.random()*15)
+    loaderrtext.innerHTML =load +"%"
+  
+  }
+  else{
+    load=100
+    loaderrtext.innerHTML=load+"%"
+   
+  }
+ }, Math.floor(Math.random()*100));
+
+ var tl =gsap.timeline()
+ tl
+ .to("#loader",{
+  y:"-100%",
+  delay:0.9,
+   })
+
+.from("#maintext #one , #line ,#two ,#three",{
     y:150,
-    delay:0.5,
+    // delay:0.1,
     stagger:0.5,
   })
   var tl1 = gsap.timeline({
