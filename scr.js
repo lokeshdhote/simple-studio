@@ -164,13 +164,13 @@ gsap.to("#page6 h4 span",{
     // markers:true,
     end:"top -20%",
     scrub:2,
-    markers:true,
+  
   }
  })
 gsap.from("#page7part1 ,#head4,#head5",{
-  y:100,
-  delay:0.8,
-  stagger:0.5,
+  y:200,
+  delay:0.6,
+  stagger:0.7,
   scrollTrigger:{
     trigger:"#page7",
     scroller:"#main",
